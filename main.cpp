@@ -39,7 +39,7 @@ int main(int argc, char** argv)
 
 	char tm[64]; 
 	
-	int delay=300000;
+	int delay=150000;
 	     
     while(true)  
     {  
@@ -85,7 +85,7 @@ int main(int argc, char** argv)
         }
 
        
-        if(iDiffNum>5)
+        if(iDiffNum>8)
         { 
             time_t t = time(0); 
             strftime(tm, sizeof(tm), "%Y%m%d-%X",localtime(&t) ); 
